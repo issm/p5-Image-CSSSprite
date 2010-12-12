@@ -2,7 +2,10 @@ use inc::Module::Install;
 name 'Image-CSSSprite';
 all_from 'lib/Image/CSSSprite.pm';
 
-# requires '';
+requires 'File::Basename';
+requires 'Class::Accessor::Lite';
+requires 'Image::Imlib2';
+requires 'Image::Size';
 
 tests 't/*.t';
 author_tests 'xt';

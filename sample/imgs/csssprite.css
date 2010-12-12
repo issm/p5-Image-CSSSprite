@@ -1,0 +1,22 @@
+#navi ul li a {
+  background-image: url(./csssprite.png);
+  display: block;
+  width: 160px;
+  height: 50px;
+}
+#navi ul li#a1 a { background-position: 0px 0px; }
+#navi ul li#b1 a { background-position: -160px 0px; }
+#navi ul li#c1 a { background-position: -320px 0px; }
+#navi ul li#d1 a { background-position: -480px 0px; }
+#navi ul li#a1 a:hover { background-position: 0px -50px; }
+#navi ul li#b1 a:hover { background-position: -160px -50px; }
+#navi ul li#c1 a:hover { background-position: -320px -50px; }
+#navi ul li#d1 a:hover { background-position: -480px -50px; }
+#navi ul li#e1 a { background-position: 0px -100px; }
+#navi ul li#f1 a { background-position: -160px -100px; }
+#navi ul li#g1 a { background-position: -320px -100px; }
+#navi ul li#h1 a { background-position: -480px -100px; }
+#navi ul li#e1 a:hover { background-position: 0px -150px; }
+#navi ul li#f1 a:hover { background-position: -160px -150px; }
+#navi ul li#g1 a:hover { background-position: -320px -150px; }
+#navi ul li#h1 a:hover { background-position: -480px -150px; }
