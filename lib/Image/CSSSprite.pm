@@ -2,7 +2,7 @@ package Image::CSSSprite;
 use 5.008.009;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.0001';
 
 use File::Basename;
 use Image::Size;
